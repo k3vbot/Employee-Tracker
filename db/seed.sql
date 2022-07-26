@@ -17,13 +17,14 @@ VALUES
 (8, 'Legal Consultant', 200000, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES
 ('Chris', 'Pratt', 2, 1),
 ('Donny', 'Yen', 7, null),
 ('Scarlett', 'Johansson', 1, null),
 ('Chris', 'Evans', 8, 2),
 ('Jessica', 'Alba', 4, 3),
 ('Brie', 'Larson', 6, 4),
-('Robert', 'Downey Jr', 5, null)
+('Robert', 'Downey Jr', 5, null),
 ('Amy', 'Adams', 3, null);
 
 
